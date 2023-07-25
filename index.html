@@ -6,24 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Tea House</title>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 </head>
 
 <body>
 
     <section class="container mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
-
+        <div class="font-manrope flex justify-between">
+            <div class="w-1/2">
+                <h1 class="text-6xl font-extrabold">It's good
+                <br>tea time at The Tea House</h1>
+                <p class="text-lg leading-8 my-5">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-[#FFF]">Explore More<img src="./images/arrow.png" alt=""></button>
+            </div>
+            <div><img src="./images/banner.png" alt="">
+                <div class="card w-64 bg-base-100 drop-shadow bottom-28 left-24">
+                    <div class="card-body flex-row items-center gap-4">
+                        <div><img src="./images/Group 5.svg" alt="" srcset=""></div>
+                        <div>
+                            <h1 class="card-title">5.00</h1>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 </body>
